@@ -35,7 +35,8 @@ def get_japanese_emoticon(file, emoticon)
   
     translator = load_library(file)
     
-    if emoticon translator
+    translator.each_pair do |word, array|
+    if translator
  
   
 end
