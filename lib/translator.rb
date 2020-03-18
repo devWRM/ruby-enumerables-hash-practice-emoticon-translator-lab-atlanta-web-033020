@@ -23,7 +23,7 @@ def load_library(file)
                  end
                  
           translator
-  
+  binding.pry
 end
 
 # p load_library("./lib/emoticons.yml")
