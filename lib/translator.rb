@@ -36,10 +36,10 @@ def get_japanese_emoticon(file, emoticon)
  japanese_emoticon = load_library(file)
  
       if emoticon == japanese_emoticon
-        japanese_emoticon
+        return japanese_emoticon
       end
  
- japanese_emoticon
+ 
   
 end
 
