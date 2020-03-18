@@ -17,11 +17,9 @@ def load_library(file)
                  }
                  
                  emoticons.each_pair do |word_expressions, emos|
-                    # emos.each do |japanese_emo|
-                       # if japanese_emo == 1
+                    
                             translator["get_meaning"][emos[1]] = word_expressions
-                       # end
-                   # end
+                       
                  end
                  
           translator
