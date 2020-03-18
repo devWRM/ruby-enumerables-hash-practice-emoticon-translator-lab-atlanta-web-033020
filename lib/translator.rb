@@ -7,7 +7,7 @@ def load_library(file)
   # yaml 6:45 video https://www.youtube.com/watch?v=F7JQxXhceZo
   
                   emoticons = YAML.load_file(file)
-
+binding.pry
         # Below does not require the file parameter to load the file & see its contents
         # emoticons = YAML.load(File.open(File.join(File.dirname(__FILE__), 'emoticons.yml')))
         
