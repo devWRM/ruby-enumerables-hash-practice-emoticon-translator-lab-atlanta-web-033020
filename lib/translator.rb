@@ -35,7 +35,7 @@ def get_japanese_emoticon(file, emoticon)
   
     translator = load_library(file)
     
-    if translator
+    if emoticon translator
  
   
  
