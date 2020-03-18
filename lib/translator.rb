@@ -19,7 +19,7 @@ def load_library(file)
                  emoticons.each_pair do |word_expressions, emos|
                     
                             translator["get_meaning"][emos[1]] = word_expressions
-                            translator["get_emoticon"][emos[0]] = word_expressions
+                            translator["get_emoticon"][emos[0]] = emos[1]
                  end
                  
           translator
