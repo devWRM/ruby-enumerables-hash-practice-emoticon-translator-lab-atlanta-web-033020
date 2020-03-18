@@ -33,11 +33,10 @@ end
 def get_japanese_emoticon(file, emoticon)
   # code goes here
   
- japanese_emoticon = load_library(file)
+    translator = load_library(file)
+    translator
  
-      if emoticon == japanese_emoticon
-        return japanese_emoticon
-      end
+  
  
  
   
