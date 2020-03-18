@@ -14,7 +14,7 @@ def load_library(file)
                   file()
   
                   emoticons
-  
+  binding.pry
 end
 
 # p load_library("./lib/emoticons.yml")
