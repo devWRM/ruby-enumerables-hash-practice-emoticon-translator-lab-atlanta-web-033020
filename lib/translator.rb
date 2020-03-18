@@ -7,7 +7,7 @@ def load_library(file)
   # yaml 6:45 video https://www.youtube.com/watch?v=F7JQxXhceZo
   
                   emoticons = YAML.load_file(file)
-binding.pry
+
         # Below does not require the file parameter to load the file & see its contents
         # emoticons = YAML.load(File.open(File.join(File.dirname(__FILE__), 'emoticons.yml')))
         
@@ -19,6 +19,8 @@ binding.pry
                  emoticons.each_pair do |word_expressions, emos|
                     emos.each do |japanese_emo|
                         if japanese_emo == 1
+ binding.pry                         
+                          
                             translator["get_meaning"][japanese_emo]
                         end
                     end
