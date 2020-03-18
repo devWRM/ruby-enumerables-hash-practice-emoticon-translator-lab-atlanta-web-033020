@@ -38,9 +38,6 @@ def get_japanese_emoticon(file, emoticon)
     if emoticon translator
  
   
- 
- 
-  
 end
 
 
