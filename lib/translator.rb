@@ -33,7 +33,7 @@ end
 def get_japanese_emoticon(file, emoticon)
   # code goes here
   
-    translator = load_library(file)["get_emoticon"]
+    translator = load_library(file)["get_emoticon"][emoticon]
     
     translator.each_pair do |word, array|
 binding.pry
