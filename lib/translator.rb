@@ -30,7 +30,7 @@ end
 
 
 
-def get_japanese_emoticon(file, )
+def get_japanese_emoticon(file, emoticon)
   # code goes here
   
   
